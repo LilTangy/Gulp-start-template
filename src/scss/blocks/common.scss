@@ -1,0 +1,6 @@
+// Заголовки, общие БЄМ блоки и проче...
+[class*="__container"] {
+	max-width: $maxWidthContainer + px;
+	padding: 0 100px;
+	margin: 0 auto;
+}

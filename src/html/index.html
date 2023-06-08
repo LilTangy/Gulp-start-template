@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/style.min.css">
+	<title>Document</title>
+</head>
+
+<body>
+
+	@@include("blocks/header.html")
+
+	<main class="page">
+		<div data-tabs class="tabs">
+			<nav data-tabs-titles class="tabs__navigation">
+				<button type="button" class="tabs__title">Таб №1</button>
+				<button type="button" class="tabs__title">Таб №2</button>
+				<button type="button" class="tabs__title">Таб №3</button>
+			</nav>
+			<div data-tabs-body class="tabs__content">
+				<div class="tabs__body">
+					Содержимое первого таба
+				</div>
+				<div class="tabs__body">
+					Содержимое второго таба
+				</div>
+				<div class="tabs__body">
+					Содержимое третьего таба
+				</div>
+			</div>
+		</div>
+		<div data-tabs class="circle">
+			<nav data-tabs-titles class="circle__navigation">
+				<button type="button" class="circle__title _tab-active">Таб №1</button>
+				<button type="button" class="circle__title">Таб №2</button>
+				<button type="button" class="circle__title">Таб №3</button>
+			</nav>
+			<div data-tabs-body class="circle__content">
+				<div class="circle__body">
+					Содержимое первого таба
+				</div>
+				<div class="circle__body">
+					Содержимое второго таба
+				</div>
+				<div class="circle__body">
+					Содержимое третьего таба
+				</div>
+			</div>
+		</div>
+
+
+
+	</main>
+
+	@@include("blocks/footer.html")
+
+	<script src="js/main.js"></script>
+</body>
+
+</html>
